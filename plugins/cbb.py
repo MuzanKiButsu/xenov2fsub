@@ -1,5 +1,5 @@
 #(©)Codexbotz
-#Recoded By @Its_Tartaglia_Childe
+#Modified By @Not_Xenov
 
 from pyrogram import __version__
 from bot import Bot
