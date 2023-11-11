@@ -1,5 +1,5 @@
 #(©)Codexbotz
-#recoded by @Its_Tartaglia_Childe
+#Modified by @Not_Xenov
 
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
