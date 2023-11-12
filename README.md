@@ -1,21 +1,22 @@
-# Nozel's-file-sharing-Modified
+# Xenov-2-Force-sub-file-sharing-bot
 
-![image](https://github.com/Sahil0976/MultiForce-Sub/assets/97865856/c9cd46d1-e48d-4276-9b39-ac8e3d08ffc4)
+![image](https://telegra.ph/file/9eb3ec1e091e2ea875dde.jpg)
 
 <b>A Telegram Special File Sharing Bot Who Made A Link Of File And You Can Access File Through Link.</b>
 
 ##
 
-**Credit - [@CodeXbotz](https://t.me/CodeXBotz)** [@Anime_X_Hunters](https://t.me/Anime_X_Hunters)**
+**Credit - [@CodeXbotz](https://t.me/CodeXBotz)** [Nozel](https://t.me/its_tartaglia_childe)** [Xenov](https://t.me/not_xenov)**
 
 
 
 ### Features
-- Multi Force Sub Modified Of CodeXBotz Created By - [@Its_Tagtaglia_Childe](https://t.me/Its_Tartaglia_Childe)**
-- Fully customisable.
+- 2 Force Sub Modified Of CodeXBotz Created By - [@Its_Tagtaglia_Childe](https://t.me/Its_Tartaglia_Childe)**
+- Simplifying Done by [Xenov](https://t.me/not_xenov)**
+- Fully customisable, if need any help contact @not_xenov on TG.
 - Customisable welcome & Forcesub messages.
 - More than one Posts in One Link.
-- Can be deployed on heroku directly.
+- Can be deployed on heroku directly or Free on Render (indirectly) with 24x7 Uptime.
 
 ### Setup
 
