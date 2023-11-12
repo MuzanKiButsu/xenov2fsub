@@ -11,7 +11,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>\n⋉ Developer : <a href='tg://user?id={760067286}'>𝙓𝙚𝙣𝙤𝙫</a>\n❐ Owner : <a href='tg://user?id={OWNER_ID}'>This User\n❐ Support Group: <a href=https://t.me/sn_botsupport>​Bots Support™​</a>\n❐ Powered by: <a href=https://t.me/supernovanetwork>Supernova™</a>\n━━━━━━━━━━━━━━━━━━━━━━━━━━━/n➮ Want your own Bot?: <a href=https://t.me/not_xenov>Contact here</a></b>",
+            text = f"<b>⋉ Developer : <a href='tg://user?id={760067286}'>𝙓𝙚𝙣𝙤𝙫</a>\n\n❐ Owner : <a href='tg://user?id={OWNER_ID}'>This User\n❐ Support Group: <a href=https://t.me/sn_botsupport>​Bots Support</a>\n❐ Powered by: <a href=https://t.me/supernovanetwork>Supernova™</a>\n━━━━━━━━━━━━━━━━━━━━━━━━━━━\n➮ Want your own Bot?: <a href=https://t.me/not_xenov>Contact here</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
