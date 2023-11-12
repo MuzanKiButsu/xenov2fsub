@@ -1,6 +1,6 @@
 #(©)CodeXBotz
 #Recoded By @Its_Tartaglia_Childe
-
+#Edited By @Not_Xenov
 
 
 import os
@@ -38,7 +38,7 @@ FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "𝐇𝐢 𝐃𝐮𝐝𝐞.. {first}\n\n𝐈 𝐀𝐦 𝐚 𝐅𝐢𝐥𝐞-𝐒𝐭𝐨𝐫𝐞 𝐛𝐨𝐭\n𝐘𝐨𝐮 𝐜𝐚𝐧 𝐚𝐜𝐜𝐞𝐬𝐬 𝐟𝐢𝐥𝐞𝐬 𝐭𝐡𝐫𝐨𝐮𝐠𝐡 𝐚 𝐬𝐩𝐞𝐜𝐢𝐟𝐢𝐜 𝐥𝐢𝐧𝐤..!")
+START_MSG = os.environ.get("START_MESSAGE", "<b>Hey there, {mention}! How you doin'</b>\n\n<i>Anyways, I can provide you with files via certain links posted at channels.</i>\n\n<a href='https://telegra.ph/file/9eb3ec1e091e2ea875dde.jpg'>○</a> Proudly affiliated with<a href='https://t.me/supernovanetwork'>Supernova™</a>")
 try:
     ADMINS=[5876546010]
     for x in (os.environ.get("ADMINS", "760067286").split()):
@@ -47,7 +47,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "𝐒𝐨𝐫𝐫𝐲 𝐒𝐢𝐫/𝐌𝐚𝐦 𝐲𝐨𝐮 𝐡𝐚𝐯𝐞 𝐭𝐨 𝐣𝐨𝐢𝐧 𝐦𝐲 𝐜𝐡𝐚𝐧𝐧𝐞𝐥𝐬 𝐟𝐢𝐫𝐬𝐭 𝐭𝐨 𝐚𝐜𝐜𝐞𝐬𝐬 𝐟𝐢𝐥𝐞𝐬..\n\n𝐒𝐨 𝐩𝐥𝐞𝐚𝐬𝐞 𝐣𝐨𝐢𝐧 𝐦𝐲 𝐜𝐡𝐚𝐧𝐧𝐞𝐥𝐬 𝐟𝐢𝐫𝐬𝐭 𝐚𝐧𝐝 𝐭𝐫𝐲 𝐚𝐠𝐚𝐢𝐧....!")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "<b>Please Join both of the Channels mentioned below to use me!!</b>\n\n⚡After Joining Click on Try Again to get your files..")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
@@ -59,7 +59,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>I've been working tirelessly for</b>\n{uptime}"
-USER_REPLY_TEXT = "hehe datte kimi yowai mo!! uhm uhm, I can't do nothing else but provide files."
+USER_REPLY_TEXT = "hehe datte kimi yowai mo<a href='https://telegra.ph/file/8a535f82f531f2334e020.mp4'>!!</a> uhm uhm, I can't do nothing else but provide files."
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(6376328008)
