@@ -38,7 +38,7 @@ FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "<b>Hey there, {mention}! How you doin'</b>\n\n<i>Anyways, I can provide you with files via certain links posted at channels.</i>\n\n<a href='https://telegra.ph/file/9eb3ec1e091e2ea875dde.jpg'>○</a> Proudly affiliated with<a href='https://t.me/supernovanetwork'>Supernova™</a>")
+START_MSG = os.environ.get("START_MESSAGE", "<b>Hey there, {mention}! How you doin'</b>\n\n<i>Anyways, I can provide you with files via certain links posted at channels.</i>\n\n<a href='https://telegra.ph/file/9eb3ec1e091e2ea875dde.jpg'>○</a> Powered by: @SupernovaNetwork")
 try:
     ADMINS=[5876546010]
     for x in (os.environ.get("ADMINS", "760067286").split()):
