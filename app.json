@@ -51,7 +51,7 @@
     },
     "FORCE_SUB_MESSAGE": {
       "description": "Optional: Force Sub message of bot, use HTML parsemode format",
-      "value": ""
+      "value": "<b>Please Join both of the Channels mentioned below to use me!!</b>\n\n⚡After Joining Click on Try Again to get your files.."
     },
     "ADMINS": {
       "description": "A space separated list of user_ids of Admins, they can only create links",
